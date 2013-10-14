@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ClickBot2
+</name>
+</assembly>
+<members>
+<member name="M:ClickBot2.bho.RegisterBHO(System.Type)">
+	<summary>
+ When this class is registered to COM, add a new key to the BHORegistryKey 
+ to make IE use this BHO.
+ On 64bit machine, if the platform of this assembly and the installer is x86,
+ 32 bit IE can use this BHO. If the platform of this assembly and the installer
+ is x64, 64 bit IE can use this BHO.
+ </summary>
+</member><member name="M:ClickBot2.bho.UnregisterBHO(System.Type)">
+	<summary>
+ When this class is unregistered from COM, delete the key.
+ </summary>
+</member><member name="M:ClickBot2.bho.OnDocumentComplete(System.Object,System.Object@)">
+	<summary>
+ Handle the DocumentComplete event.
+ </summary>
+	<param name="pDisp">
+ The pDisp is an an object implemented the interface InternetExplorer.
+ By default, this object is the same as the ieInstance, but if the page 
+ contains many frames, each frame has its own document.
+ </param>
+</member><member name="T:ClickBot2.bho">
+	<summary>
+ Set the GUID of this class and specify that this class is ComVisible.
+ A BHO must implement the interface IObjectWithSite. 
+ </summary>
+</member><member name="P:ClickBot2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ClickBot2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ClickBot2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

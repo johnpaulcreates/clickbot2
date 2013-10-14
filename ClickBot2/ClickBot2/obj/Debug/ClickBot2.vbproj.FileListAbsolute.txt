@@ -1,0 +1,10 @@
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\bin\Debug\ClickBot2.dll
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\bin\Debug\ClickBot2.pdb
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\bin\Debug\ClickBot2.xml
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\obj\Debug\Interop.SHDocVw.dll
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\obj\Debug\ClickBot2.vbproj.ResolveComReference.cache
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\obj\Debug\ClickBot2.Resources.resources
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\obj\Debug\ClickBot2.vbproj.GenerateResource.Cache
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\obj\Debug\ClickBot2.dll
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\obj\Debug\ClickBot2.xml
+D:\Common\Dropbox\Projects\ClickBot 2.0\clickbot2\ClickBot2\ClickBot2\obj\Debug\ClickBot2.pdb

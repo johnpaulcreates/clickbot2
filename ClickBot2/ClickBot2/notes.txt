@@ -1,0 +1,49 @@
+﻿http://www.xtremevbtalk.com/showthread.php?t=53876
+
+when ie starts, it searches the registerty to find stuf it needs to load
+all BHO's must implement the IObjectWithSite interface:
+
+Private Sub IObjectWithSite_GetSite(ByVal priid As VBShellLib.REFIID, ppvObj As VBShellLib.VOID)
+  '
+End Sub
+
+Private Sub IObjectWithSite_SetSite(ByVal pSite As VBShellLib.IUnknownVB)
+  '
+End Sub
+
+there is a class in this solution that defines this interface (IObjectWithSite.vb)
+
+
+How do we attach to IE?
+wehn the bho is first loaded, SetSite will be called and a reference to the browser will be passed via pSite
+WE need to store this reference and convert it to an InternetExplorer object (which uses the IWebBrowser2 interface)
+
+
+
+
+more reading:
+    http://msdn.microsoft.com/library/de...extensions.asp
+    http://msdn.microsoft.com/library/en...n/html/bho.asp
+
+
+
+	very helpful:
+	http://www.codeproject.com/Articles/19971/How-to-attach-to-Browser-Helper-Object-BHO-with-C
+
+
+Add References to these COM Libraries:
+* Microsoft HTML OBject Library
+* Microsoft Internet Controls
+
+Include system.windows.forms to get the messagebox class
+
+
+
+after compilation, register teh dll:
+regasm /codebase whatever.dll
+(use the visual studio command prompt, might need to run as admin.  remember to enclose he path in quotes)
+
+now the addin shoul dbe registered with IE.  you might have to enable it in there.
+
+
+
